@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio samples from "BemaGAN: Generative Adversarial Networks with Multi Envelope Discriminator"</title>
+    <meta charset="UTF-8">
+    <title>BemaGAN: Generative Adversarial Networks with Multi Envelope Discriminator</title>
+    <style>
+        red {color: red}
+        audio {width: 250px}
+    </style>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Audio samples from "BemaGAN: Generative Adversarial Networks with Multi Envelope Discriminator"</h1>
+      </header>
+    </article>
+
+<!--    <p><b>Paper:</b> <a href="">arXiv</a></p>-->
+<!--    <p><b>Authors</b>: </p>-->
+
+    <div>
+      <b>Abstract:</b>
+      This paper introduces BemaGAN (Bespoke Envelope Multi-Discriminator Adaptive GAN),
+       a novel adaptation of the HiFi-GAN architecture enhanced with a Multi-Envelope Discriminator (MED) to improve audio periodicity sensitivity,
+       fidelity, and perceptual quality. We have further developed Audim, a new audio generative AI model, by applying BemaGAN to the vocoder of an existing audio AI model. 
+       Our research utilizes Audim to advance personalized digital treatment technologies for tinnitus, specifically through an improved TMNMT (Tailored Music Notched Music Therapy) approach. 
+       This method, which adapts music to individual tinnitus frequencies and personal genre preferences, traditionally faced challenges with limited music selection and prolonged treatment durations. 
+       By integrating Audim, we enhance audio quality and variety, effectively increasing patient engagement and treatment effectiveness. 
+       Preliminary tests indicate that Audim performs robustly across both objective and subjective metrics, promising significant advancements in tinnitus treatment environments.
+    <p></p>
+    </div>
+
+    <p>For more details of our work, please refer to the <a href="">paper</a>.(Coming soon)<br/>
+    Our implementation is available in the <a href="https://github.com/dinhoitt/CAPSTONE_KWU">github repository</a>.<br/><br/>
+    </p>
+
+
+    <p class="toc_title">Contents</p>
+    <div id="toc_container">
+    <ul>
+      <li><a href="#ss">Random sound (free.org)</a></li>
+      <li><a href="#ms">Music over 90s (composed)</a></li>
+    </ul>
+    </div>
+
+    <p>&nbsp;</p>
+
+    <div>
+      <a name="ss"><h2>Test1</h2></a>
+      <hr>
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap width="160">Ground Truth</td>
+          <td><audio controls="" preload="none"><source src="example/origin/test1.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/origin/test2.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/origin/test3.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/origin/test4.wav"></audio></td>
+        </tr>
+        <tr>
+          <td nowrap>MSD + MPD
+          <td><audio controls="" preload="none"><source src="example/msdmpd/test1.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/msdmpd/test2.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/msdmpd/test3.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/msdmpd/test4.wav"></audio></td>
+        </tr>
+        <tr>
+          <td nowrap>MRD + MPD
+          <td><audio controls="" preload="none"><source src="example/mrdmpd/test1.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/mrdmpd/test2.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/mrdmpd/test3.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/mrdmpd/test4.wav"></audio></td>
+        </tr>
+        <tr>
+          <td nowrap>MED + MPD
+          <td><audio controls="" preload="none"><source src="example/medmpd/test1.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/medmpd/test2.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/medmpd/test3.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/medmpd/test4.wav"></audio></td>
+        </tr>
+        
+        </tbody>
+      </table>
+    </div>
+    <br><br>
+    <div>
+      <a name="ms"><h2>Music over 90s (composed)</h2></a>
+      <hr>
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap width="160">Ground Truth</td>
+          <td><audio controls="" preload="none"><source src="example/origin/test5.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/origin/test6.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/origin/test7.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/origin/test8.wav"></audio></td>
+        </tr>
+        <tr>
+          <td nowrap>MSD + MPD
+          <td><audio controls="" preload="none"><source src="example/msdmpd/test5.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/msdmpd/test6.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/msdmpd/test7.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/msdmpd/test8.wav"></audio></td>
+        </tr>
+        <tr>
+          <td nowrap>MRD + MPD
+          <td><audio controls="" preload="none"><source src="example/mrdmpd/test5.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/mrdmpd/test6.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/mrdmpd/test7.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/mrdmpd/test8.wav"></audio></td>
+        </tr>
+        <tr>
+          <td nowrap>MED + MPD
+          <td><audio controls="" preload="none"><source src="example/medmpd/test5.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/medmpd/test6.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/medmpd/test7.wav"></audio></td>
+          <td><audio controls="" preload="none"><source src="example/medmpd/test8.wav"></audio></td>
+        </tr>
+        
+        </tbody>
+      </table>
+    </div>
+    <br><br>
+    
+    
+  </body>
+</html>
